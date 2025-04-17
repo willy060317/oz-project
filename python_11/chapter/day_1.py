@@ -1,4 +1,2 @@
-def solution(a,b):
-    return a+b
-
-print(solution(1,2))
+# str="010-9898-9283"
+# print(str.replace("-", ""))
