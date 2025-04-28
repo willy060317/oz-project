@@ -1,68 +1,275 @@
-# # # # # # # # # # # str = "a b c"
-# # # # # # # # # # # print(str.split()하지
-# # # # # # # # # # # input()
-# # # # # # # # # # # 안녕ㅏ세요
-# # # # # # # # # # print("python")
-# # # # # # # # # # print("python".find("p       ython"))
-# # # # # # # # # print("Hello".isupper())
-# # # # # # # # # print( "a" in "apple")
-# # # # # # # # my_string = "jarson"
-# # # # # # # # print(my_string[::-1])
-# # # # # # # pip3 install requests
-# # # # # # # import requests
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # str = "a b c"
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print(str.split()하지
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # input()
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 안녕ㅏ세요
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print("python")
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print("python".find("p       ython"))
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print("Hello".isupper())
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print( "a" in "apple")
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # my_string = "jarson"
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print(my_string[::-1])
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # pip3 install requests
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # import requests
 
-# # # # # # # keyword = input("검색할 키워드를 입력해주세요 :")
-# # # # # # # url ="https://search.naver.com/search.naver?ssc=tab.blog.all&sm=tab_jum&query=" + keyword
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # keyword = input("검색할 키워드를 입력해주세요 :")
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # url ="https://search.naver.com/search.naver?ssc=tab.blog.all&sm=tab_jum&query=" + keyword
 
-# # # # # # # html = requests.get(url)
-# # # # # # # print(html.text)
-# # # # # # # i=0
-# # # # # # # while True:
-# # # # # # #     i += 1
-# # # # # # #     if i>9999999999999*9999999999999999999999999999:
-# # # # # # #         break
-# # # # # # # print(i)
-# # # # # # num = 7
-# # # # # # 정답 = 0
-# # # # # # while num != 1:
-# # # # # #     if num%2==0:
-# # # # # #         num = num/2
-# # # # # #     else:
-# # # # # #         num=num*3+1
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # html = requests.get(url)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print(html.text)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # i=0
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # while True:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #     i += 1
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #     if i>9999999999999*9999999999999999999999999999:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #         break
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print(i)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # num = 7
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 정답 = 0
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # while num != 1:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #     if num%2==0:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #         num = num/2
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #     else:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #         num=num*3+1
     
-# # # # # #     정답+= 1
-# # # # # # print(정답)    
-# # # # # print(dir(int))
-# # # # # class Person:
-# # # #      def __init__(self, name, age, address):
-# # # #          self.hello = "안녕하세요"
-# # # def function(x, y):
-# # #     z = x + y
-# # #     return z
-# # # print('옥수수와 수박의 수확량 :', function(10,2
-# # a=100
-# # def f():
-# #     global a
-# # #     a=a+1
-# # #     return a
-# # # # print(f()
-# # class Person:
-# #     def hello(self):
-# #         print('수강생 여러분')
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #     정답+= 1
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print(정답)    
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print(dir(int))
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # class Person:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #      def __init__(self, name, age, address):
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #          self.hello = "안녕하세요"
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # def function(x, y):
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #     z = x + y
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #     return z
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # print('옥수수와 수박의 수확량 :', function(10,2
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # a=100
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # def f():
+# # # # # # # # # # # # # # # # # # # # # # # # # # # #     global a
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #     a=a+1
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #     return a
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # print(f()
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # class Person:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # #     def hello(self):
+# # # # # # # # # # # # # # # # # # # # # # # # # # # #         print('수강생 여러분')
 
-# # 호출=Person()
-# # # 호출.hello()
-# # a = int(10)
-# # print(a)
-# # b=list(range(10))
-# # print(b)
-# # class 
-# # print (dir(int))
-# class 클래스아름:
-class oz:
-    def __init__(self,name,age,coding_level):
-        self.name =name
-        self.age =age
-        self.coding_level=coding_level
-        coding = oz("김코", 30, "A")
-        print(oz)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # 호출=Person()
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # 호출.hello()
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # a = int(10)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # print(a)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # b=list(range(10))
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # print(b)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # class 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # print (dir(int))
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # class 클래스아름:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # class oz:
+# # # # # # # # # # # # # # # # # # # # # # # # # # #     def __init__(self,name,age,coding_level):
+# # # # # # # # # # # # # # # # # # # # # # # # # # #         self.name =name
+# # # # # # # # # # # # # # # # # # # # # # # # # # #         self.age =age
+# # # # # # # # # # # # # # # # # # # # # # # # # # #         self.coding_level=coding_level
+# # # # # # # # # # # # # # # # # # # # # # # # # # #         coding = oz("김코", 30, "A")
+# # # # # # # # # # # # # # # # # # # # # # # # # # #         print(oz)
+# # # # # # # # # # # # # # # # # # # # # # # # # # def oz(n, *values):
+# # # # # # # # # # # # # # # # # # # # # # # # # #     for i in range(n):
+# # # # # # # # # # # # # # # # # # # # # # # # # #         for value in values:
+# # # # # # # # # # # # # # # # # # # # # # # # # #             print(value)
+# # # # # # # # # # # # # # # # # # # # # # # # # #         print()
+# # # # # # # # # # # # # # # # # # # # # # # # # # oz(3, "이렇게", "저렇게", "어라")
+# # # # # # # # # # # # # # # # # # # # # # # # # # 가변 매개변수는  def로 정의 values로 값 실현 for 문 사용해서 
+# # # # # # # # # # # # # # # # # # # # # # # # # # 값 value에 넣기
+# # # # # # # # # # # # # # # # # # # # # # # # # # def oz(*values,n=3 ):
+# # # # # # # # # # # # # # # # # # # # # # # # # #     for i in range(n):
+# # # # # # # # # # # # # # # # # # # # # # # # # #         for value in values:
+# # # # # # # # # # # # # # # # # # # # # # # # # #             print(value)
+# # # # # # # # # # # # # # # # # # # # # # # # # #         print()
+# # # # # # # # # # # # # # # # # # # # # # # # # 2
+# # # # # # # # # # # # # # # # # # # # # # # # # # # oz("기본 매개변수 다음에","가변 매개변수를 ","넣을 수 있을ㅅ까요>?")
+# # # # # # # # # # # # # # # # # # # # # # # # # # def oz(x, y=20, h=10):
+# # # # # # # # # # # # # # # # # # # # # # # # # #     print(x * y * h)
+# # # # # # # # # # # # # # # # # # # # # # # # # # oz(10)
+# # # # # # # # # # # # # # # # # # # # # # # # # # result = input("1+1은?")
+# # # # # # # # # # # # # # # # # # # # # # # # # # print(result)
+# # # # # # # # # # # # # # # # # # # # # # # # # def oz(start,end,multiple):
+# # # # # # # # # # # # # # # # # # # # # # # # #     for i in range(start,end,multiple):
+# # # # # # # # # # # # # # # # # # # # # # # # #         print(i, " ", end="")
+# # # # # # # # # # # # # # # # # # # # # # # # #     print()
+# # # # # # # # # # # # # # # # # # # # # # # # # oz(0, end=100, multiple = 10)
+# # # # # # # # # # # # # # # # # # # # # # # # # 재귀함수 = 함수 안에 자기의 함수 다시 호출
+# # # # # # # # # # # # # # # # # # # # # # # # def oz_factorial(n):
+# # # # # # # # # # # # # # # # # # # # # # # #     output = 1
+# # # # # # # # # # # # # # # # # # # # # # # #     for i in range(1, n+1):
+# # # # # # # # # # # # # # # # # # # # # # # #         output *= i
+# # # # # # # # # # # # # # # # # # # # # # # #     return output
+# # # # # # # # # # # # # # # # # # # # # # # # n= int(input("구하고자 하는 팩토리얼 수를 입력해주세요"))
+# # # # # # # # # # # # # # # # # # # # # # # # print(f'{n}의 결과는 {oz_factorial(n)}입니다.')
+# # # # # # # # # # # # # # # # # # # # # # # def factorial(n):
+# # # # # # # # # # # # # # # # # # # # # # #     output = 1
+# # # # # # # # # # # # # # # # # # # # # # #     for i in range (1 , n+1):
+# # # # # # # # # # # # # # # # # # # # # # #         output *= i
+# # # # # # # # # # # # # # # # # # # # # # #     return output
+# # # # # # # # # # # # # # # # # # # # # # # n = int(input("구하고자 하는 팩토리얼의 수를 구하시오") )
+# # # # # # # # # # # # # # # # # # # # # # # print(f'{n}팩토니얼의 결과는 {factorial(n)}입니다.')
+# # # # # # # # # # # # # # # # # # # # # # count = 0
+# # # # # # # # # # # # # # # # # # # # # # def oz_fibo(n):
+# # # # # # # # # # # # # # # # # # # # # #     print(f'피보나치 수열{n}을 구하는 중입니다.')
+# # # # # # # # # # # # # # # # # # # # # #     global count
+# # # # # # # # # # # # # # # # # # # # # #     count += 1
+# # # # # # # # # # # # # # # # # # # # # #     if n ==1:
+# # # # # # # # # # # # # # # # # # # # # #         return 1
+# # # # # # # # # # # # # # # # # # # # # #     if n == 2:
+# # # # # # # # # # # # # # # # # # # # # #         return 1 
+# # # # # # # # # # # # # # # # # # # # # #     else:
+# # # # # # # # # # # # # # # # # # # # # #         return oz_fibo(n-1) + oz_fibo(n-2)
+# # # # # # # # # # # # # # # # # # # # # # n = int(input("구하고자 하는 피보나치 수열의 합을 구하시오") )
+# # # # # # # # # # # # # # # # # # # # # # oz_fibo(n)
+# # # # # # # # # # # # # # # # # # # # # # print(f'피보나치 수열{n}을 수하기 위해 계산된 횟수는 {count} 입니다')
+# # # # # # # # # # # # # # # # # # # # # memo= {1:1,2:1,}
+
+
+# # # # # # # # # # # # # # # # # # # # oz_tuple = 1, 2, 3, 4
+# # # # # # # # # # # # # # # # # # # # print("oz_tuple",oz_tuple)
+# # # # # # # # # # # # # # # # # # # # print("oz_tuple type", type(oz_tuple))
+# # # # # # # # # # # # # # # # # # # x,y =1, 2
+# # # # # # # # # # # # # # # # # # # print("x: ", x)
+# # # # # # # # # # # # # # # # # # # print("y: ", y)
+# # # # # # # # # # # # # # # # # # def oz_tuple():
+# # # # # # # # # # # # # # # # # #     return(1, 2)
+# # # # # # # # # # # # # # # # # # x, y = oz_tuple()
+# # # # # # # # # # # # # # # # # # print(x)
+# # # # # # # # # # # # # # # # # # print(y)
+# # # # # # # # # # # # # # # # # for i, fruit in enumerate([1,2,3,4]):
+# # # # # # # # # # # # # # # # #     print(i, fruit)
+# # # # # # # # # # # # # # # # a,b = 7,3
+# # # # # # # # # # # # # # # # x,y = divmod(a,b)
+# # # # # # # # # # # # # # # # print(x)
+# # # # # # # # # # # # # # # # print(y)
+
+# # # # # # # # # # # # # # # # 변형 x 전환 O
+# # # # # # # # # # # # # # # # 그냥 괄호없이 쓰기 가능 
+# # # # # # # # # # # # # # # def oz_call(function):
+# # # # # # # # # # # # # # #     for i in range(5):
+# # # # # # # # # # # # # # #         function()
+# # # # # # # # # # # # # # # def talk():
+# # # # # # # # # # # # # # #     print("파이썬 이건 또 무슨 개념이야?")
+# # # # # # # # # # # # # # # oz_call(talk)
+# # # # # # # # # # # # # # def square(i):
+# # # # # # # # # # # # # #     return i*i
+# # # # # # # # # # # # # # number_list = {1,2,3,4,5,6,7,8,9,10}
+
+# # # # # # # # # # # # # # result = map(square, number_list)
+
+# # # # # # # # # # # # # # print("map 결과:", result)
+# # # # # # # # # # # # # # print("map 결과의 list 형변환",list(result))
+# # # # # # # # # # # # # square = lambda i : i*i
+
+# # # # # # # # # # # # # number_list = [1,2,3,4,5,6,7,8,9,10]
+# # # # # # # # # # # # # result = map in(square, number_list)
+
+# # # # # # # # # # # # # print("map결과:",result)
+# # # # # # # # # # # # # print("map 결과의 list 형변환:", list(result))
+
+# # # # # # # # # # # # square = lambda i: i * i
+
+# # # # # # # # # # # # number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# # # # # # # # # # # # result = map(square, number_list)  # 'in' 제거하고 괄호 사용
+
+# # # # # # # # # # # # print("map 결과:", result)
+# # # # # # # # # # # # print("map 결과의 list 형변환:", list(result))
+# # # # # # # # # # # def test():
+# # # # # # # # # # #     print("첫번쨰 출력")
+# # # # # # # # # # #     yield 1
+# # # # # # # # # # #     print("두번쨰 출력")
+# # # # # # # # # # #     yield 2
+# # # # # # # # # # #     print("세번쨰 출력")
+
+# # # # # # # # # # # output = test()
+# # # # # # # # # # # print("네번쨰 출력")
+
+# # # # # # # # # # # x = next(output)
+# # # # # # # # # # # print(x)
+# # # # # # # # # # # print("다섯번쨰 출력")
+# # # # # # # # # # # y = next(output)
+# # # # # # # # # # # print(y)
+# # # # # # # # # # # print("여섯번쨰 출력")
+# # # # # # # # # # # # z = next(output)
+# # # # # # # # # # # # print(z)
+
+# # # # # # # # # # # # 이터레이터 = 순서대로 하나씩 꺼낼 수 있는 객체 예 (lisr)
+# # # # # # # # # # # # 제너레이터 = 이터레이터를 쉽게 만들 수 있는 방식
+# # # # # # # # # # # num = 10
+# # # # # # # # # # # print(type(num))
+# # # # # # # # # # def oz(x, y, h):
+# # # # # # # # # #     return x*y*h
+# # # # # # # # # # print(oz(10,10,10))
+# # # # # # # # # print("오류는 아주 사소한 것부터 발생합니다.")
+# # # # # # # # # dogs = ["닥스훈트","시바견"]
+# # # # # # # # # dogs.append("말티즈")
+# # # # # # # # # print(dogs)
+# # # # # # # # # x, y = input("밑변과 높이를 입력하세요").split(" ")
+# # # # # # # # # if x.isdigit and y.isdigit():
+# # # # # # # # #     x, y = int(x), int(y)
+# # # # # # # # #     print(f'삼각형의 넓이는 {x*y/2}입니다')
+# # # # # # # # # else:
+# # # # # # # # #     print("정수로 입력하지 않아 계산이 불가합니다")
+# # # # # # # # #     #오류의 종류는 계산중 이루어지는 오류와 문법상 오류 
+# # # # # # # # #     # 문법을 고치거나 틀린 변수 찾기
+# # # # # # # # #     isdight = 문자열에서 문자가 숫자로만 되어있나 확인
+# # # # # # # # list_input = ["1","2","3","4","스파이"]
+# # # # # # # # list_number = []
+
+# # # # # # # # for item in list_input:
+# # # # # # # #     try:
+# # # # # # # #         int(item)
+# # # # # # # #         list_number.append(item)
+# # # # # # # #     except:
+# # # # # # # #         pass
+# # # # # # # # print(f'{list_input}내부에 있는 숫자는')
+# # # # # # # # print(f'{list_number}입니다')
+
+# # # # # # # # try = 시도
+# # # # # # # # finally = 무조건 마지막에
+# # # # # # # # except = 제외하고 
+# # # # # # # # else = 혹은
+# # # # # # # numbers = [23, 11 , 4, 12]
+# # # # # # # try:
+# # # # # # #     number_input = int(input("찾고싶은 값의 위치를 입력하시오"))
+# # # # # # #     print(f'{number_input}번째 요소 : {numbers[number_input]}')
+# # # # # # # except ValueError:
+# # # # # # #     print("정수로 입력하시오")
+# # # # # # # except IndexError:
+# # # # # # #     print("텍스트의 범위를 벗어났습니다 다시 입력해주세여")\
+# # # # # # # 1 SyntaxError = 문법에러
+# # # # # # # 2:exception:문법은 맞지만 실행
+# # # # # # import os 
+# # # # # # print("형제 운영체제:",os.name)
+
+# # # # # # # os.mkdir("oz")
+# # # # # # # os.rmdir("6일차")
+# # # # # # with 
+# # # # # import datetime
+# # # # # print('오늘의 날씨 출력')
+# # # # # now = datetime.datetime.now()
+# # # # # print(now.year,"년")
+# # # # # print(now.month,"월")
+# # # # # print(now.day,"일")
+# # # # # print(now.hour,"시")
+
+# # # # import time
+
+# # # # print("3초 뒤에 어떤일이 일어날까요?")
+# # # # time.sleep(3)
+# # # # print("아무일도 없었다")
+# # # from urllib import request
+# # # target = request.urlopen()
+# # # web_code = target.read()
+# # # print(web_code)
+# # from urllib import request
+# # from bs4 import BeautifulSoup
+
+# # target = request.urlopen("https://www.kma.go.kr/plus/rss.jsp")
+
+# # soup = BeautifulSoup(target, "html.parser")
+
+# # for location in soup.sellect("location"):
+# #     print("도시",location.select_one("city").string)
+# #     print("날씨",location.select_one("wf").string)
+# def def oz():
+#     print("파이썬 너무 재밋")
+# oz()
